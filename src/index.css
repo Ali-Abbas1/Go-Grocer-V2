@@ -35,6 +35,13 @@ a, a[href], input[type='submit'], input[type='image'], label[for], select, butto
   box-shadow: 6.84842px 82.181px 41.0905px rgba(229, 229, 229, 0.7);
 }
 
+.filter-black {
+  background: #323142;
+opacity: 0.2;
+filter: blur(60.8495px);
+border-radius: 13.2763px;
+}
+
 .swiper-pagination-progressbar {
   max-width: 667px !important;
   height: 11px !important;

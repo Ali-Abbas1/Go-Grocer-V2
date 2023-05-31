@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="max-w-[1440px] mx-auto container flex justify-between items-center border-b border-[#CBCBCB] xl:px-10 md:px-6 px-4">
-      <div className="logo-and-headerMenu flex justify-between items-center md:items-start md:max-w-[60%] w-full">
+      <div className="logo-and-headerMenu flex justify-between items-center md:max-w-[60%] w-full">
         <div className="logo w-full max-w-full md:max-w-[40%]">
           <img src="/assets/images/logo.png" className="w-[150px] h-[150px]" />
         </div>

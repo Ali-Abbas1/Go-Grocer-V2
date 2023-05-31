@@ -341,7 +341,7 @@ const TopDishes = () => {
             </div>
           </div>
         </div>
-        <div className="card5 hidden md:flex bg-white relative border-[1.4px] border-[#F4F4F6] food-card-shadow pt-[26px] pb-[24px] rounded-[34px]">
+        <div className="card5 hidden md:block bg-white relative border-[1.4px] border-[#F4F4F6] food-card-shadow pt-[26px] pb-[24px] rounded-[34px]">
           <svg
             width={22}
             height={19}
