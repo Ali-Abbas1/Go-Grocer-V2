@@ -3,8 +3,9 @@ import React from "react";
 const Customers = () => {
   return (
     <div
-      className={`mx-auto container max-w-[1440px] mt-[84px] bg-customers object-cover bg-no-repeat bg-cover xl:px-10 md:px-6 px-4`}
+      className={`mt-[84px] bg-customers object-cover bg-no-repeat bg-cover xl:px-10 md:px-6 px-4`}
     >
+      <div className="mx-auto container max-w-[1440px] ">
       <div className="mx-auto max-w-[942px] flex flex-col space-y-[120px] md:space-y-0 md:flex-row justify-between items-center py-[100px] md:py-[50px]">
         <div>
           <h2 className="font-public font-bold text-[43px] leading-[54px] md:text-[30px] md:leading-[38px] xl:text-[42px] xl:leading-[54px] text-white text-center">
@@ -30,6 +31,7 @@ const Customers = () => {
             Reliable Customer Support. We Provide Great Experiences
           </p>
         </div>
+      </div>
       </div>
     </div>
   );
