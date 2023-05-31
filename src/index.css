@@ -1,0 +1,90 @@
+{/*font Inter*/}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+{/*font Poppins*/}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+{/*Font Plus Jakarta Sans*/}
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+{/*Font Public Sans*/}
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+{/*Font Manrope*/}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+{/*Font QUickSand*/}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+a, a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+  cursor: pointer;
+}
+
+.bg-customers {
+  background-image: url(/public/assets/images/background-customers.png);
+}
+
+.card-shadow {
+  box-shadow: 5.94564px 71.3477px 35.6738px rgba(229, 229, 229, 0.7);
+}
+
+.food-card-shadow {
+  box-shadow: 6.84842px 82.181px 41.0905px rgba(229, 229, 229, 0.7);
+}
+
+.swiper-pagination-progressbar {
+  max-width: 667px !important;
+  height: 11px !important;
+  border-radius: 50px !important;
+  margin-left: auto;
+  margin-right: auto;
+  color: #71C90C !important;
+  left: 582px !important;
+  top:300px !important;
+}
+
+.swiper-pagination-progressbar-fill {
+  border-radius: 50px !important;
+  background: #71C90C !important ;
+}
+
+.blur-effect {
+  background: #323142;
+opacity: 0.2;
+filter: blur(92.1971px);
+border-radius: 20.1157px;
+}
+{/*Responsive break points for Progress bar*/}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  .swiper-pagination-progressbar {
+    left: 520px !important;
+    width: 500px !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .swiper-pagination-progressbar {
+    left: 400px !important;
+    width: 440px !important;
+    top: 235px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .swiper-pagination-progressbar {
+    left: 370px !important;
+    width: 300px !important;
+    top: 235px !important;
+    
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .swiper-pagination-progressbar {
+    left: 10px !important;
+    width: 325px !important;
+    top: 430px !important;
+    height: 10px !important;
+  }
+}
