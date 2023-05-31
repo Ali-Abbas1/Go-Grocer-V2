@@ -60,7 +60,7 @@ const Quality = () => {
             </div>
             <img
               src="/assets/images/arrow.png"
-              className="absolute left-0 -rotate-[265deg] top-[180px] md:rotate-0 md:top-12 md:left-[142px]"
+              className="absolute left-0 -rotate-[265deg] top-[180px] md:rotate-0 md:top-28 md:left-[142px]"
             />
           </div>
         </div>
