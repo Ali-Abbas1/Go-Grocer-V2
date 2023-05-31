@@ -31,8 +31,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="hidden md:block mx-auto container max-w-[1440px] mt-[57px] pb-20">
-        <div className="flex justify-between items-center">
+      <div className="hidden md:block mx-auto container max-w-[1440px] mt-[57px] pb-20 px-[40px]">
+        <div className="flex justify-between items-center ">
           <div className="max-w-[75%] w-full">
             <p className="font-inter font-medium text-[17px] leading-[25px] text-[#999999]">
               © 2023 GoGrocer All Rights Reserved.
