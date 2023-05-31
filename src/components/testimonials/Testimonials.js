@@ -43,9 +43,9 @@ const Testimonials = () => {
         className="mt-28 min-h-[550px] md:min-h-[400px]"
       >
         <div className=" flex justify-between items-start overflow-x-hidden w-full gap-[32px] ">
-          <SwiperSlide className="">
+          <SwiperSlide>
             <div className=" bg-white rounded-[20px] py-[24px] xl:py-[38px] px-[18px] xl:px-[32px] relative">
-              <div className="w-[442px] h-[269px] blur-effect absolute top-[60px] left-[40px] -z-10" />
+              <div className="w-[449px] h-[150px] blur-effect absolute bottom-[50px] right-[70px] -z-10" />
               <div>
                 <div className="flex items-center justify-between">
                   <div className="flex space-x-5">
@@ -95,7 +95,7 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className=" bg-white rounded-[20px] py-[24px] xl:py-[38px] px-[18px] xl:px-[32px] relative">
-              <div className="w-[442px] h-[198px] blur-effect absolute top-[60px] left-[200px] -z-10" />
+              <div className="w-[449px] h-[170px] blur-effect absolute top-[100px] right-[50px] -z-10" />
               <div>
                 <p className="font-poppins italic md:text-xs xl:text-lg leading-[26px] mt-8 ">
                   “ Online invoice payment helps companies save time, are faster
@@ -110,7 +110,7 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className=" bg-white rounded-[20px] py-[24px] xl:py-[38px] px-[18px] xl:px-[32px] relative">
-              <div className="w-[442px] h-[198px] blur-effect absolute top-[100px] left-[40px] -z-10" />
+              <div className="w-[250px] h-[160px] blur-effect absolute top-[80px] right-[240px] -z-10" />
               <div>
                 <p className="font-poppins italic md:text-xs xl:text-lg leading-[26px] mt-8 max-w-[442px] ">
                   “ Online invoice payment helps companies save time, are faster
