@@ -27,7 +27,7 @@ const TopDishes = () => {
           </svg>
           <div className="px-1 xl:px-4">
             <img
-              src="/assets/images/foodCard1.png"
+              src="/assets/images/FoodCard1.png"
               className="max-w-[170px] max-h-[170px]"
             />
           </div>
@@ -110,7 +110,7 @@ const TopDishes = () => {
           </svg>
           <div className="px-1 xl:px-4">
             <img
-              src="/assets/images/foodCard2.png"
+              src="/assets/images/FoodCard2.png"
               className="max-w-[170px] max-h-[170px]"
             />
           </div>
