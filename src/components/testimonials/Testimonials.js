@@ -127,17 +127,17 @@ const Testimonials = () => {
       </Swiper>
       {/* Discount Banner */}
       <div className="">
-        <div className="bg-[#71C90C] rounded-[30px] md:px-[66px] flex pt-[61px] pb-[140px] lg:pb-[61px] flex-col justify-center relative z-0 items-center lg:items-left ">
+        <div className="bg-[#71C90C] rounded-[30px] md:px-[66px] flex pt-[61px] pb-[140px] lg:pb-[61px] flex-col justify-center items-center lg:justify-start lg:items-start relative z-0 ">
           <h2 className="font-poppins font-extrabold text-[41px] leading-[62px] md:text-[70px] md:leading-[105px] text-white max-w-[350px]">
             GET 50%
           </h2>
-          <form className="w-full md:w-auto px-4">
-            <div className="max-w-full md:max-w-[450px] flex relative mt-2">
+          <form className="w-full px-4 md:px-0">
+            <div className="mx-auto lg:mx-0 max-w-full md:max-w-[450px] flex relative mt-2">
               <input
                 type="email"
                 name="Email"
                 placeholder="Email Address"
-                className="w-full max-w-full md:max-w-[440px] pl-[21px] rounded-[14px] font-poppins font-normal text-base tracking-[0.03em] capitalize placeholder:text-[#878787] py-[21px] outline-none "
+                className="w-full flex max-w-full md:max-w-[440px] pl-[21px] rounded-[14px] font-poppins font-normal text-base tracking-[0.03em] capitalize placeholder:text-[#878787] py-[21px] outline-none "
               />
               <button
                 type="submit"
